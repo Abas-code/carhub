@@ -1,0 +1,19 @@
+
+  /* footer */
+  footer{
+    width:100vw; height:50vh; padding:5vh 10vh;
+    background-color:#f44336; color:#fff;
+  }
+  #topDiv{
+    width:100%; height:25vh; display:flex;
+    justify-content:center; align-items:center;
+  }
+  #leftDiv{width:50%; height:100%; padding-right:10vh;}
+  #socialContact{width:100%; height:auto;}
+  #socialContact a{padding:2vh;}
+  #socialContact a:hover{background-color:#8d1007;}
+  .socialContact{width:3vh; height:auto;}
+  #rightDiv{width:50%; height:100%; padding-right:10vh;}
+  input{padding:2vh;}
+  input[type=submit]{background-color:#f44336;}
+  #bottomDiv{width:100%;}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/styles/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./assets/images/car.svg">
+  <title>Car Hub</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div id="home">
+        <a href="#intro">
+          <img id="navImg" class="carHub" src="./assets/images/house-chimney.svg" alt="Home Image">
+          <h1 id="navH1" class="carHub">Home</h1>
+          <h1 id="navH2" class="carHub">Car Hub</h1>
+        </a>
+      </div>
+      <div class="dropdown">
+        <img class="dropbtn" src="./assets/images/bars.svg" onclick="myFunction()">
+        <div id="myDropdown" class="dropdown-content">
+          <a class="about" href="./assets/about.html"><b>About Us</b></a>
+          <a class="shop" href="./assets/shop.html"><b>Shop</b></a>
+          <a class="blog" href="./assets/blog.html"><b>Blog</b></a>
+          <a class="contactUs" href="#contactUs"><b>Contact Us</b></a>
+        </div>
+      </div>
+      <div id="laptopMenu">
+        <a class="about" href="./assets/about.html"><b>About Us</b></a>
+        <a class="shop" href="./assets/shop.html"><b>Shop</b></a>
+        <a class="blog" href="./assets/blog.html"><b>Blog</b></a>
+        <a class="contactUs" href="#contactUs"><b>Contact Us</b></a>
+      </div>
+    </nav>
+    <div id="intro">
+      <div id="introFlex">
+        <h1 class="introH">Welcome To Car Hub!</h1>
+        <div class="textSlide">
+          <p class="introP">
+            Laudantium odio sit praesentium harum molestias
+            similique rem natus cum quas soluta expedita voluptate
+            nisi quidem, modi laborum alias consequatur eveniet
+            atque! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit.
+            <span class="no">
+              Laudantium odio sit praesentium harum molestias
+              similique rem natus cum quas soluta expedita voluptate
+              nisi quidem, modi laborum alias consequatur eveniet
+              atque!
+            </span>
+            <a class="introA" href="./assets/about.html">
+              <b>Read More &raquo;</b>
+            </a>
+          </p>
+        </div>
+        <div class="textSlide">
+          <p class="introP">
+            Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Laudantium odio sit praesentium harum molestias
+            similique rem natus cum quas soluta expedita voluptate
+            nisi quidem, modi laborum alias consequatur eveniet
+            atque!
+          </p>
+          <p id="button">
+            <a id="shopButton" href="./assets/shop.html">
+              <b>Shop!</b>
+            </a>
+          </p>
+        </div>
+        <div class="textSlide">
+          <p class="introP">
+            Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Laudantium odio sit praesentium harum molestias
+            similique rem natus cum quas soluta expedita voluptate
+            nisi quidem, modi laborum alias consequatur eveniet
+            atque!
+            <span class="no">
+              Lorem ipsum dolor sit amet consectetur adipisicing
+              elit!
+            </span>
+            <a class="introA" href="./assets/blog.html">
+              <b>Read More &raquo;</b>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <a id="scrollUp" href="#intro">
+    <img src="./assets/images/arrow-up.svg" alt="Car Side">
+    <img src="./assets/images/car.svg" alt="Car Side">
+  </a>
+
+  <section id="shop">
+    <h2 id="shopH2">Car Sales</h2>
+    <div id="carSlide">
+      <div class="carSlide">
+        <div class="carSlideImgDiv">
+          <img class="carSlideImg" src="./assets/images/car.svg" alt="Car Image">
+        </div>
+        <div class="carSlideText">
+          <h3 class="carSlideH3">Car Model 1</h3>
+          <p class="carSlideP">
+            Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Sit quos unde in iste ut placeat
+            fuga tenetur vitae maiores dicta eius porro
+            deleniti, optio delectus quo praesentium dolores
+            laborum autem. <span>&#8358;900K</span>
+          </p>
+          <button id="carSlideBtnI" class="carSlideBtn">
+            <b>Details</b>
+          </button>
+        </div>
+      </div>
+      <div class="carSlide">
+        <div class="carSlideImgDiv">
+          <img class="carSlideImg" src="./assets/images/car.svg" alt="Car Image">
+        </div>
+        <div class="carSlideText">
+          <h3 class="carSlideH3">Car Model 2</h3>
+          <p class="carSlideP">
+            Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Sit quos unde in iste ut placeat
+            fuga tenetur vitae maiores dicta eius porro
+            deleniti, optio delectus quo praesentium dolores
+            laborum autem. <span>&#8358;850K</span>
+          </p>
+          <button id="carSlideBtnII" class="carSlideBtn">
+            <b>Details</b>
+          </button>
+        </div>
+      </div>
+      <div class="carSlide">
+        <div class="carSlideImgDiv">
+          <img class="carSlideImg" src="./assets/images/car.svg" alt="Car Image">
+        </div>
+        <div class="carSlideText">
+          <h3 class="carSlideH3">Car Model 3</h3>
+          <p class="carSlideP">
+            Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Sit quos unde in iste ut placeat
+            fuga tenetur vitae maiores dicta eius porro
+            deleniti, optio delectus quo praesentium dolores
+            laborum autem. <span>&#8358;800K</span>
+          </p>
+          <button id="carSlideBtnIII" class="carSlideBtn">
+            <b>Details</b>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Car Modals -->
+  <div id="carI" class="modal">
+    <img class="modalSvgI modalSvg" src="./assets/images/xmark.svg" alt="Close Image">
+    <div class="modalContent">
+      <h2 class="modalH2">Car Model 1</h2>
+      <div class="modalLeft">
+        <img class="modalImgI modalImg" src="./assets/images/car.svg" alt="Car Image">
+        <img class="modalImgI modalImg" src="./assets/images/car-side.svg" alt="Car Image">
+        <img class="modalImgI modalImg" src="./assets/images/car-rear.svg" alt="Car Image">
+      </div>
+      <div class="modalRight">
+        <h3 class="modalH3">Description</h3>
+        <p class="modalP">
+          Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Sit quos unde in iste ut placeat
+          fuga tenetur vitae maiores dicta eius porro
+          deleniti, optio delectus quo praesentium dolores
+          laborum autem. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Doloremque dolorem non similique
+          reiciendis nobis, inventore dolor vitae molestias
+          consectetur numquam omnis repellat maxime
+          exercitationem, deleniti itaque dolores beatae
+          explicabo quibusdam!
+        </p>
+        <h3 class="modalH3">Price</h3>
+        <p class="modalP">&#8358;900K</p>
+      </div>
+    </div>
+  </div>  
+  <div id="carII" class="modal">
+    <img class="modalSvgII modalSvg" src="./assets/images/xmark.svg" alt="Close Image">
+    <div class="modalContent">
+      <div class="modalLeft">
+        <img class="modalImgII modalImg" src="./assets/images/car.svg" alt="Car Image">
+        <img class="modalImgII modalImg" src="./assets/images/car-side.svg" alt="Car Image">
+        <img class="modalImgII modalImg" src="./assets/images/car-rear.svg" alt="Car Image">
+        <h2 class="modalH2">Car Model 2</h2>
+      </div>
+      <div class="modalRight">
+        <h3 class="modalH3">Description</h3>
+        <p class="modalP">
+          Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Sit quos unde in iste ut placeat
+          fuga tenetur vitae maiores dicta eius porro
+          deleniti, optio delectus quo praesentium dolores
+          laborum autem. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Doloremque dolorem non similique
+          reiciendis nobis, inventore dolor vitae molestias
+          consectetur numquam omnis repellat maxime
+          exercitationem, deleniti itaque dolores beatae
+          explicabo quibusdam!
+        </p>
+        <h3 class="modalH3">Price</h3>
+        <p class="modalP">&#8358;850K</p>
+      </div>
+    </div>
+  </div>  
+  <div id="carIII" class="modal">
+    <img class="modalSvgIII modalSvg" src="./assets/images/xmark.svg" alt="Close Image">
+    <div class="modalContent">
+      <div class="modalLeft">
+        <img class="modalImgIII modalImg" src="./assets/images/car.svg" alt="Car Image">
+        <img class="modalImgIII modalImg" src="./assets/images/car-side.svg" alt="Car Image">
+        <img class="modalImgIII modalImg" src="./assets/images/car-rear.svg" alt="Car Image">
+        <h2 class="modalH2">Car Model 3</h2>
+      </div>
+      <div class="modalRight">
+        <h3 class="modalH3">Description</h3>
+        <p class="modalP">
+          Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Sit quos unde in iste ut placeat
+          fuga tenetur vitae maiores dicta eius porro
+          deleniti, optio delectus quo praesentium dolores
+          laborum autem. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Doloremque dolorem non similique
+          reiciendis nobis, inventore dolor vitae molestias
+          consectetur numquam omnis repellat maxime
+          exercitationem, deleniti itaque dolores beatae
+          explicabo quibusdam!
+        </p>
+        <h3 class="modalH3">Price</h3>
+        <p class="modalP">&#8358;800K</p>
+      </div>
+    </div>
+  </div>
+  
+  <section id="blog">
+    <div id="blogDiv">
+      <h2 id="blogH">Blog</h2>
+      <div id="blogSlide">
+        <div class="blogSlide">
+          <div class="blogSlideImgDiv">
+            <img class="blogSlideImg" src="./assets/images/car-battery.svg" alt="Car Battery">
+          </div>
+          <div class="blogSlideText">
+            <h3 class="blogSlideH3">How to... 1</h3>
+            <p class="blogSlideP">
+              Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Sit quos unde in iste ut placeat
+              fuga tenetur vitae maiores dicta eius porro
+              deleniti...
+              <a class="blogSlideA" href="./assets/blogs/blog1.html" target="_blank">
+                <b>Read More</b>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="blogSlide">
+          <div class="blogSlideImgDiv">
+            <img class="blogSlideImg" src="./assets/images/car-burst.svg" alt="Car Burst">
+          </div>
+          <div class="blogSlideText">
+            <h3 class="blogSlideH3">How to... 2</h3>
+            <p class="blogSlideP">
+              Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Sit quos unde in iste ut placeat
+              fuga tenetur vitae maiores dicta eius porro
+              deleniti...
+              <a class="blogSlideA" href="./assets/blogs/blog2.html" target="_blank">
+                <b>Read More</b>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="blogSlide">
+          <div class="blogSlideImgDiv">
+            <img class="blogSlideImg" src="./assets/images/car-on.svg" alt="Car On">
+          </div>
+          <div class="blogSlideText">
+            <h3 class="blogSlideH3">How to... 3</h3>
+            <p class="blogSlideP">
+              Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Sit quos unde in iste ut placeat
+              fuga tenetur vitae maiores dicta eius porro
+              deleniti...
+              <a class="blogSlideA" href="./assets/blogs/blog3.html" target="_blank">
+                <b>Read More</b>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div id="topDiv">
+      <div id="leftDiv">
+        <h3 id="contactUs">Contact Us</h3>
+        <p id="leftDivP">
+          No. 28 Okokon Etuk Street, Uyo, Akwa Ibom State.        
+        </p>
+        <div id="socialContact">
+          <a href="tel:+2348119275855">
+            <img src="./assets/images/whatsapp.svg" alt="whatsapp" class="socialContact">
+          </a>
+          <a href="mailto:blestjimmy@gmail.com">
+            <img src="./assets/images/envelope.svg" alt="gmail" class="socialContact">
+          </a>
+          <a href="#">
+            <img src="./assets/images/linkedin-in.svg" alt="linkedin" class="socialContact">
+          </a>
+          <a href="#">
+            <img src="./assets/images/facebook.svg" alt="facebook" class="socialContact">
+          </a>
+        </div>
+        <div class="otherLinks">
+          <a href="./assets/terms.html" class="otherLinksTerms"><b>Terms of Service</b></a>
+          <a href="./assets/policy.html" class="otherLinksPolicy"><b>Privacy Policy</b></a>
+        </div>
+      </div>
+      <div id="rightDiv">
+        <h3 id="rightDivH3">Newsletter</h3>
+        <p id="rightDivP">
+          Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Quibusdam corrupti consequatur iusto placeat
+          facilis ad nihil voluptatum, quod cum vero ducimus
+          quos sapiente cumque maiores veritatis saepe quisquam,
+          sunt impedit.
+        </p>
+        <form action="#">
+          <input type="email" name="email" placeholder="Email">
+          <input type="submit" value="Subscribe">
+        </form>
+      </div>
+    </div>
+    <div id="bottomDiv">
+      <p id="bottomDivP">
+        &copy; Copyright Car Hub. All Rights Reserved.
+        Designed by 
+        <a id="designer" href="#">
+          Abasifreke Jimmy
+        </a>.
+      </p>
+    </div>
+  </footer>
+
+  <script src="./assets/scripts/index.js"></script>
+</body>
+</html>
